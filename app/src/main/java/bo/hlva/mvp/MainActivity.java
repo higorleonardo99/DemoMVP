@@ -3,6 +3,7 @@ package bo.hlva.mvp;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 		Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar);
 		setSupportActionBar(toolbar);
         
+        Toast.makeText(this,"Welcome",Toast.LENGTH_SHORT).show();
     }
     
 }
